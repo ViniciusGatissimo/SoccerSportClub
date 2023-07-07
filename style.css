@@ -1,0 +1,29 @@
+.header{
+    
+    background-color: black;
+    height: 22.5vh;
+    color: #EBFF00 ;
+}
+
+nav{
+    display: flex;
+}
+li{
+    display: inline;
+    font-size: 55px;
+    padding: 120px;
+
+ 
+}
+ul{
+    position: absolute;
+    right: 6%;
+    top: 6%;
+}
+.logo{
+    width: 250px;
+    margin-left: 80px;
+}
+a{
+    font-weight: bold;
+}
