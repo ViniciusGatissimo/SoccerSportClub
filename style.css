@@ -68,8 +68,35 @@ footer{
     margin-bottom: 0px;
     text-align: center;
     color: #EBFF00;
-    font-size: 100px;
+    font-size: 120px;
+    padding-bottom: ;
 }
+.SSC{
+    position: absolute;
+    right: 47%;
+    color: #EBFF00;
+    font-size: 38px;
+    padding-top: 5px;
+}  
+h3{
+    position: absolute;
+    right: 36%;
+    color: white;
+    font-size: 38px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.imgU{
+ padding-top: 50px;
+ margin-left: 170px;
 
+
+
+}
+.imgU2{
+    margin-left: 178px;
+    padding-bottom: 50px;
+    padding-top: 8px;
+}
 
 
