@@ -1,3 +1,20 @@
+.carousel, .carousel img{
+    height: 65vh;
+    width: 80vw;
+    object-fit: cover;
+    object-position: 40% 50%;
+}
+.txtdiv {
+    width: 75%;
+    margin:100px auto;
+
+}
+p{
+    text-align: center;
+    font-size: 45px;
+    color: #FFD600;
+    font-weight: bold;
+}
 .divisao {
     width: 100%;
     padding-bottom: 50px;

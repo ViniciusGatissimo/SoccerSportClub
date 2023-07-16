@@ -1,8 +1,11 @@
+body {
+    background-color:#2C2A2A;
+}
 /*Menu De Navegação*/
 .header{
     background-color: black;
     height: 22.5vh;
-
+    margin-bottom: 20px;
 }
 nav{
     display: flex;
@@ -11,46 +14,21 @@ nav{
     width: 250px;
     margin-left: 80px;
 }
-ul{
+header ul{
     position: absolute;
     right: 6%;
     top: 6%;
 }
-li{
+header li{
     display: inline;
     font-size: 55px;
     padding: 120px;
 }
-a{
+header a{
     font-weight: bold;
     text-decoration: none;
     color: #EBFF00 ;
 }
-/*Conteúdo Da Main*/
-.imagem{
-    height: 600px;
-    width: 1500px;
-    padding-top: 20px;
-}
-main{
-    background-color: #2C2A2A;
-} 
-p{
-    text-align: center;
-    font-size: 45px;
-    color: #EBFF00;
-    padding-bottom: 100px;
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-top: 100px;
-    font-weight: bold;
-    margin-bottom: 0px;
-}
-.programas{
-    width: 100%;
-    padding-bottom: 50px;
-}
-
 /*Rodapé*/
 footer{
     width: 100%;
@@ -65,7 +43,6 @@ footer{
     text-align: center;
     color: #EBFF00;
     font-size: 120px;
-    padding-bottom: ;
 }
 .SSC{
     position: absolute;
