@@ -10,7 +10,7 @@ nav{
 li{
     display: inline;
     font-size: 55px;
-    padding: 120px;
+    padding: 80px;
 }
 ul{
     position: absolute;
@@ -97,4 +97,10 @@ input{
     width: 130px;
     margin-bottom: 50px;
     margin-right: 15px;
+}
+.imgP{
+    width: 90px;
+    position: relative;
+
+    left: 8%;
 }
