@@ -1,0 +1,85 @@
+.header{
+    background-color: black;
+    height: 22.5vh;
+
+}
+
+nav{
+    display: flex;
+}
+li{
+    display: inline;
+    font-size: 55px;
+    padding: 120px;
+}
+ul{
+    position: absolute;
+    right: 6%;
+    top: 6%;
+}
+.logo{
+    width: 250px;
+    margin-left: 80px;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #EBFF00 ;
+}
+
+.imagem{
+    height: 600px;
+    width: 1500px;
+    padding-top: 20px;
+}
+
+
+main{
+    background-color: #2C2A2A;
+} 
+footer{
+    width: 100%;
+}
+.rodape{
+    width: 100%;
+    height: 150px;
+}
+form{
+    background-color: #2C2A2A;
+    padding-bottom: 10px;
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    color: white;
+    display: ;
+    margin-bottom: 3px;
+    position: relative;
+    right: 22%;
+    font-family: monospace;
+}
+input{
+    padding-top: 10px;
+    width: 1000px;
+    height: 60px;
+}
+.submit{
+    margin-left: 900px;
+    margin-top: 50px;
+    width: 500px;
+    margin-bottom: 60px;
+    background-color: #EBFF00;
+    font-size: 40px;
+}
+.Snome{
+    margin-left: 75px;
+}
+.email{
+    margin-left: 20px;
+}
+.Csenha{
+    margin-left: 150px;
+}
+.data{
+    margin-left: 195px;
+}
