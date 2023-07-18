@@ -3,60 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@700&display=swap" rel="stylesheet">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <title>Home</title>
 </head>
 <body>
-
-<header class="header">
-    <nav> 
-        <a href="index.html"> <img class="logo" src="./Img/logo.png" alt="Logo"></a>
-        <ul class="lista">   
-            <li><a href="contato.html">Contato</a></li>
-            <li><a href="Unidades.html">Unidades</a></li>
-            <li><a href="matricula.html">Matrícula</a></li>
-        </ul>
-    </nav>
-</header>
-
-  <main>
-    <div id="carouselExampleAutoplaying" class="carousel slide imagem mx-auto" data-bs-interval="3000" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <header class="header">
+      <nav> 
+          <a href="index.html"> <img class="logo" src="./Img/logo.png" alt="Logo"></a>
+          <ul class="lista">   
+              <li><a href="./contato.html">Contato</a></li>
+              <li><a href="./unidades.html">Unidades</a></li>
+              <li><a href="./matricula.html">Matrícula</a></li>
+          </ul>
+      </nav>
+  </header>
+    <main>
+      <div id="carouselExampleAutoplaying" class="carousel slide mx-auto" data-bs-interval="3000" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://www.beaconjournal.com/gcdn/presto/2022/06/15/NABJ/e31505c4-eb37-4a9b-b005-618a68239928-inner_city_soccer01.jpg" class="d-block w-100" alt="img 1">
+            </div>
+            <div class="carousel-item" >
+              <img src="https://soccer-world.ca/wp-content/uploads/bb-plugin/cache/DSC09048-thin-scaled-panorama-db506af1e1ce6e3c35ad48b1e0329205-.jpeg" class="d-block w-100" alt="img 2">
+            </div>
+            <div class="carousel-item">
+              <img src="./Img/imagem 3.png" class="d-block w-100" alt="img 3">
+            </div>
           </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://www.beaconjournal.com/gcdn/presto/2022/06/15/NABJ/e31505c4-eb37-4a9b-b005-618a68239928-inner_city_soccer01.jpg" class="d-block w-100 imagem" alt="imagem 1">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="txtdiv">
+        <p>Na Soccer Sport Club serão revelados muitos dos futuros craques do futebol brasileiro, mas tudo ao seu tempo. Procuramos a princípio,
+            desenvolver um trabalho gradativo, respeitando a faixa etária e a aptidão dos alunos.</p>
+        </div>
+      <section>
+        <h2>Categorias</h2>
+        <div class="divisao">
+          <div class="programas-box">
+            <div class="hbox">SUB-10</div>
+            <div class="shbox">PLANO ANUAL: R$220</div>
+            <div>A PARTIR DE 2 HORAS SEMANAIS</div>
+            <div>AMISTOSO INTERNOS E EXTERNOS</div>
+            <div>VIAGENS</div>
           </div>
-          <div class="carousel-item" >
-            <img src="https://soccer-world.ca/wp-content/uploads/bb-plugin/cache/DSC09048-thin-scaled-panorama-db506af1e1ce6e3c35ad48b1e0329205-.jpeg" class="d-block w-100 imagem" alt="img 2">
+          <div class="programas-box">
+            <div class="hbox">SUB-12</div>
+            <div class="shbox">PLANO ANUAL: R$250</div>
+            <div>A PARTIR DE 2 HORAS SEMANAIS</div>
+            <div>AMISTOSO INTERNOS E EXTERNOS</div>
+            <div>VIAGENS</div>
+            <div>DESAFIO ENTRE UNIDADES</div>
           </div>
-          <div class="carousel-item">
-            <img src="./Img/imagem 3.png" class="d-block w-100 imagem" alt="img 3">
+          <div class="programas-box">
+            <div class="hbox">SUB-15</div>
+            <div class="shbox">PLANO ANUAL: R$300</div>
+            <div>A PARTIR DE 2 HORAS SEMANAIS</div>
+            <div>AMISTOSO INTERNOS E EXTERNOS</div>
+            <div>VIAGENS</div>
+            <div>DESAFIO ENTRE UNIDADES</div>
+            <div>INTERCÂMBIO</div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    <p>Na Soccer Sport Club serão revelados muitos dos futuros craques do futebol brasileiro, mas tudo ao seu tempo. Procuramos a princípio,
-         desenvolver um trabalho gradativo, respeitando a faixa etária e a aptidão dos alunos.</p>
-         <img class="programas" src="./Img/Captura de tela 2023-07-11 210113.png" alt="programas">
-  </main>
-<footer>
-    <img class="rodape" src="./Img/Rodapé.png" alt="rodapé">
-</footer>
+      </section>
+    </main>
+  <footer>
+      <img class="rodape" src="./Img/Rodapé.png" alt="rodapé">
+  </footer>
 </body>
 </html>

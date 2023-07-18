@@ -1,0 +1,40 @@
+body {
+    background-color:#2C2A2A;
+}
+/*Menu De Navegação*/
+.header{
+    background-color: black;
+    height: 22.5vh;
+    margin-bottom: 20px;
+}
+nav{
+    display: flex;
+}
+.logo{
+    width: 250px;
+    margin-left: 80px;
+}
+header ul{
+    position: absolute;
+    right: 6%;
+    top: 6%;
+}
+header li{
+    display: inline;
+    font-size: 55px;
+    padding: 120px;
+}
+header a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #EBFF00 ;
+}
+/*Rodapé*/
+footer{
+    width: 100%;
+}
+.rodape{
+    width: 100%;
+    height: 150px;
+}
+
