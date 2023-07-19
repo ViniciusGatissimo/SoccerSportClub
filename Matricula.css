@@ -1,0 +1,94 @@
+.matrícula{
+    margin-left: 45%;
+    font-size: 75px;
+    color:white;
+    font-weight: lighter;
+}
+.soccer{
+    font-size: 35px;
+    color: #EBFF00;
+    font-weight: lighter;
+    margin-left:5%;
+}
+.soccer1{
+    text-decoration: none;
+}
+.nome{
+    margin-left:15%;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom: 15px;
+}
+.inputNome{
+    margin-left:15%;
+    width: 1000px;
+    margin-bottom: 10px;
+}
+.e-mail{
+    margin-left:15%;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom: 15px;
+}
+.inputE-mail{
+    margin-left:15%;
+    width: 1000px;
+    margin-bottom: 10px;
+}
+.CPF{
+    margin-left:15%;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom: 15px;
+}
+.inputCPF{
+    margin-left:15%;
+    width: 1000px;
+    margin-bottom: 10px;
+}
+.celular{
+    margin-left:15%;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom: 15px;
+}
+.inputCel{
+    margin-left:15%;
+    width: 1000px;
+    margin-bottom: 5px;
+}
+.CampoObrg{
+    margin-left:15%;
+    color: #EBFF00;
+    font-weight: bold;
+    font-size:10px;
+    margin-top: 10px;
+}
+.slcProg{
+    margin-left:15%;
+    margin-top: 10px;
+}
+.newsletter{
+    margin-left:15%;
+}
+.aceite{
+    color:white;
+    font-size:15px;
+    font-style: italic;
+    margin-top: 15px;
+}
+.lista2{
+    margin-top: 3%;
+}
+.contrato{
+    margin-left:15%;
+    margin-top: 30px;
+}
+.listau{
+    display: flex;
+
+}
