@@ -27,6 +27,9 @@ a{
     color: #EBFF00 ;
 }
 
+.card-img-top{     width: 390px;
+    margin-left: 60px;}
+
 .imagem{
     height: 600px;
     width: 1500px;
@@ -37,16 +40,30 @@ a{
 main{
     background-color: #2C2A2A;
 } 
+
+.linha-end{ 
+    background-color: #2C2A2A;
+    display: inline-flex;
+    margin-bottom: 50px;
+margin-left: 50px;
+
+}
+
+.card
+ { background-color:#5C5B5B;
+  margin-left: 70px;
+  margin-top: 100px;
+  padding-bottom: 20px;
+ 
+  
+}
+
+
 p{
-    text-align: center;
-    font-size: 45px;
+    text-align: left;
+    font-size: 20px;
     color: #EBFF00;
-    padding-bottom: 100px;
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-top: 100px;
-    font-weight: bold;
-    margin-bottom: 0px;
+    
 }
 .programas{
     width: 100%;
@@ -97,4 +114,3 @@ h3{
 }
 
 
-.card{ }
