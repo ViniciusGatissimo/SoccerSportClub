@@ -6,45 +6,56 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
 }
-.header{
+
+/*Menu De Navegação*/
+header {
     background-color: black;
-    height: 22.5vh;
-
+    margin-bottom: 20px;
+    width: 100%;
 }
-
-nav{
+nav {
+    width: 92%;
+    margin:0 4%;
     display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 17px;
 }
-li{
-    display: inline;
+nav > a{
+    display: contents;
+}
+.logo {
+    width: 175px;
+    height: 175px;
+}
+header ul {
+    flex: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    column-gap: 15%;
+    margin: 0;
+    padding: 0;
+}
+header li {
+    line-height: 1.5;
+}
+header a{
     font-size: 55px;
-    padding: 120px;
-}
-ul{
-    position: absolute;
-    right: 6%;
-    top: 6%;
-}
-.logo{
-    width: 250px;
-    margin-left: 80px;
-}
-a{
     font-weight: bold;
     text-decoration: none;
-    color: #EBFF00 ;
+    color: #e9e9e9 ;
+    height: inherit;
+
 }
 
-.imagem{
-    height: 600px;
-    width: 1500px;
-    padding-top: 20px;
+nav li:hover a {
+    color: #EBFF00;
+    border-bottom: 3px solid #EBFF00;
 }
-
-
-main{
-    background-color: #2C2A2A;
-} 
 
 footer{
     width: 100%;
@@ -52,4 +63,7 @@ footer{
 .rodape{
     width: 100%;
     height: 150px;
+}
+header img:not(.logo){
+    width: 80px;
 }
