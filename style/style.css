@@ -67,3 +67,60 @@ footer{
 header img:not(.logo){
     width: 80px;
 }
+
+/*Rodapé*/
+footer{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0;
+}
+.fdiv1 {
+    flex: 1 1 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding:5px;
+    row-gap: 10px;
+
+}
+.fdiv1 img:not(.umbro){
+    width: 200px;
+    height: auto;
+}
+
+.umbro {
+    width: 150px;
+    height: auto;
+}
+
+.fdiv2 {
+    flex: 1 2 20%;
+    border-left: 1px solid black;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    row-gap: 10px;
+}
+
+.fdiv2 h6 {
+    flex: 100%;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+}
+.fdiv2 img {
+    height: 48px;
+    width: auto;
+}
+
+.fdiv2 div {
+    flex:100%;
+    font-size: 12px;
+}
