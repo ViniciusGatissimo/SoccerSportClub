@@ -6,12 +6,14 @@
 }
 .soccer{
     font-size: 35px;
+    font-weight: lighter;
+    color: white;
+}
+.soccer1 a:link{
+    font-size: 35px;
+    text-decoration: none;
     color: #EBFF00;
     font-weight: lighter;
-    margin-left:5%;
-}
-.soccer1{
-    text-decoration: none;
 }
 .nome{
     margin-left:15%;
@@ -90,5 +92,12 @@
 }
 .listau{
     display: flex;
+    margin-left:42%;
 
+}
+.lista3{
+    display: flex;
+}
+.ast{
+    color:#EBFF00;
 }
