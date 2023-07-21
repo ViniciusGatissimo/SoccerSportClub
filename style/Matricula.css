@@ -16,66 +16,68 @@
     font-weight: lighter;
 }
 .nome{
-    margin-left:15%;
+    margin-left:23%;
     color:white;
     font-weight: bold;
     font-size:20px;
     margin-bottom: 15px;
 }
 .inputNome{
-    margin-left:15%;
+    
+    margin-left:23%;
     width: 1000px;
     margin-bottom: 10px;
 }
 .e-mail{
-    margin-left:15%;
+    margin-left:23%;
     color:white;
     font-weight: bold;
     font-size:20px;
     margin-bottom: 15px;
 }
 .inputE-mail{
-    margin-left:15%;
+    margin-left:23%;
     width: 1000px;
     margin-bottom: 10px;
 }
 .CPF{
-    margin-left:15%;
+    margin-left:23%;
     color:white;
     font-weight: bold;
     font-size:20px;
     margin-bottom: 15px;
 }
 .inputCPF{
-    margin-left:15%;
+    margin-left:23%;
     width: 1000px;
     margin-bottom: 10px;
 }
 .celular{
-    margin-left:15%;
+    margin-left:23%;
     color:white;
     font-weight: bold;
     font-size:20px;
-    margin-bottom: 15px;
+    margin-bottom: 23px;
 }
 .inputCel{
-    margin-left:15%;
+    margin-left:23%;
     width: 1000px;
     margin-bottom: 5px;
 }
 .CampoObrg{
-    margin-left:15%;
+    margin-left:23%;
     color: #EBFF00;
     font-weight: bold;
-    font-size:10px;
+    font-size:20px;
     margin-top: 10px;
 }
 .slcProg{
-    margin-left:15%;
+    margin-left:23%;
     margin-top: 10px;
 }
 .newsletter{
-    margin-left:15%;
+    margin-left:23%;
+    
 }
 .aceite{
     color:white;
@@ -100,4 +102,48 @@
 }
 .ast{
     color:#EBFF00;
+}
+.unidades{
+    margin-bottom: 0px;
+    text-align: center;
+    color: #EBFF00;
+    font-size: 120px;
+}
+.SSC{
+    position: absolute;
+    right: 47%;
+    color: #EBFF00;
+    font-size: 38px;
+    padding-top: 5px;
+}  
+h3{
+    position: absolute;
+    right: 36%;
+    color: white;
+    font-size: 38px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.box {
+    font-size: 50px;
+    color: #EBFF00;
+    border-style: solid;
+    border-color: #EBFF00;
+}
+.box {
+    font-size: 40px;
+    color: #000000;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(142, 150, 156);
+    background-color: rgb(142, 150, 156);
+    border-width: 10px;
+    width: 600px;
+    position: relative;
+    left: 36%;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #EBFF00;
 }
