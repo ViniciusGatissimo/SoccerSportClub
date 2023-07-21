@@ -1,7 +1,11 @@
 
-.card-img-top{     width: 390px;
-    margin-left: 60px;
+.card-img-top{
+width: 300px;
+height: 300px;
+margin-left: 100px;
+
 }
+
 
 .imagem{
     height: 600px;
